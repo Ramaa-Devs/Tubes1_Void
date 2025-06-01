@@ -4,9 +4,9 @@ Bot Etimo Diamonds yang Menggunakan Algoritma Greedy buatan kelompok VOID
 
 ## Tentang Proyek Ini
 
-Algoritma greedy yang diimplementasikan dalam bot ini menggunakan pendekatan value-to-cost ratio, di mana setiap diamond dievaluasi berdasarkan efisiensi nilainya terhadap jarak tempuh. Bot akan selalu memilih target dengan rasio jarak terhadap poin terkecil, sehingga memprioritaskan diamond yang bernilai tinggi namun tetap efisien untuk dicapai. Strategi ini memungkinkan bot mengambil keputusan cepat untuk memaksimalkan skor sambil tetap mempertimbangkan kebutuhan untuk kembali ke base sebelum waktu habis.
+Bot ini menggunakan algoritma greedy berbasis time-weighted. Setiap diamond dievaluasi berdasarkan kombinasi nilai, jarak, dan waktu tersisa. Bot akan memilih target dengan skor terbaik secara efisien dan lebih fokus ke diamond bernilai tinggi di awal game, dan makin memprioritaskan jarak dekat di akhir game. Selain itu, bot juga bisa menggunakan portal jika jalurnya lebih cepat, serta mempertimbangkan waktu optimal untuk kembali ke base agar diamond tidak hangus.
 
-Algoritma utama yang digunakan bernama `mysmartbot`.
+Algoritma utama yang digunakan bernama `tw`.
 
 ## Persiapan awal
 
