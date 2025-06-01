@@ -75,3 +75,8 @@ Algoritma utama yang digunakan bernama `mysmartbot`.
     2. Untuk Linux / macOS
       ```bash
       ./run-bots.sh
+
+## Author
+- Ketua     : Diwan Ramadhani Dwi Putra  123140116
+- Anggota 1 : M. Gymnastiar Syahputra    123140135
+- Anggota 2 : Jordy Anugrah Akbar        123140141
