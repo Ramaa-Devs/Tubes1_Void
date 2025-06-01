@@ -67,7 +67,7 @@ Algoritma utama yang digunakan bernama `tw`.
 - Jalankan Bot
   - Untuk 1 bot menggunakan logic utama yang digunakan
     ```bash
-    python main.py --logic mysmartbot --email=your_email@example.com --name=your_name --password=your_password --team etimo
+    python main.py --logic tw --email=tw@example.com --name=tw --password=your_password --team etimo
   - Untuk beberapa bot ubah script yang ada pada run-bots.bat atau run-bots.sh dari segi logic yang digunakan, email, nama, dan password
     1. Untuk Windows
        ```bash
