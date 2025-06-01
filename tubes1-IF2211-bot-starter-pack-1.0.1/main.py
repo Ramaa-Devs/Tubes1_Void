@@ -8,16 +8,14 @@ from game.bot_handler import BotHandler
 from game.logic.random import RandomLogic
 from game.util import *
 from game.logic.base import BaseLogic
-import game.logic.mysmartbot as mysmartbot
-from game.logic.mysmartbot import GreedyDiamondLogic
-import game.logic.mysmartbot2 as mysmartbot2
-from game.logic.mysmartbot2 import GreedyDiamondLogic
-import game.logic.waktu as waktu
-from game.logic.waktu import GreedyDiamondLogic
-import game.logic.resiko as resiko
-from game.logic.resiko import GreedyDiamondLogic
-import game.logic.resiko2 as resiko2
-from game.logic.resiko2 import GreedyDiamondLogic
+import game.logic.cep as cep
+from game.logic.cep import GreedyDiamondLogic
+import game.logic.vtd as vtd
+from game.logic.vtd import GreedyDiamondLogic
+import game.logic.tw as tw
+from game.logic.tw import GreedyDiamondLogic
+import game.logic.ra as ra
+from game.logic.ra import GreedyDiamondLogic
 
 
 init()
@@ -25,11 +23,10 @@ BASE_URL = "http://localhost:3000/api"
 DEFAULT_BOARD_ID = 1
 CONTROLLERS = {
     "Random": RandomLogic,
-    "mysmartbot": mysmartbot.GreedyDiamondLogic,
-    "MySmartBot2": mysmartbot2.GreedyDiamondLogic,
-    "waktu": waktu.GreedyDiamondLogic,
-    "Resiko": resiko.GreedyDiamondLogic,
-    "Resiko2": resiko2.GreedyDiamondLogic,
+    "cep": cep.GreedyDiamondLogic,
+    "vtd": vtd.GreedyDiamondLogic,
+    "tw": tw.GreedyDiamondLogic,
+    "ra": ra.GreedyDiamondLogic,
 }
 
 ###############################################################################
